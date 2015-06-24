@@ -9,7 +9,8 @@
     "prebuild": "rm -rf lib",
     "eslint": "eslint src/**",
     "build": "npm run eslint && babel --stage 1 ./src --out-dir ./lib",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "install": "npm run build"
   },
   "keywords": [
     "react",
